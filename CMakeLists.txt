@@ -12,7 +12,9 @@ find_package(std_msgs REQUIRED)
 set(msg_files
   msg/Analog.msg
   msg/Digital.msg
+  msg/ErrorCode.msg
   msg/IOStates.msg
+  msg/KeyMessage.msg
   msg/RobotStateRTMsg.msg
   msg/MasterboardDataMsg.msg
   msg/RobotModeDataMsg.msg
@@ -34,6 +36,7 @@ set(srv_files
 set(action_files
   action/ToolContact.action
   action/FollowJointTrajectoryUntil.action
+  action/SendScript.action
 )
 
 if(BUILD_TESTING)

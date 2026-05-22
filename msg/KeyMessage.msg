@@ -1,0 +1,4 @@
+uint32 message_code
+uint32 message_argument
+string message_title
+string message

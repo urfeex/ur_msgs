@@ -1,0 +1,10 @@
+string script_code
+string script_name
+bool fail_on_warnings true
+builtin_interfaces/Duration start_timeout 
+---
+bool success
+string message
+ErrorCode error_code
+---
+KeyMessage[] key_messages
